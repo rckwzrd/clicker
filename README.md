@@ -19,6 +19,10 @@ If you have intallation issues follow instructions for your OS here: https://pya
 
 With your terminal, navigate to the repo directory and run `python3 clicker.py`. 
 
-If the `generate 1000 samples` button is obscured or minized the script will let you know...
+If the `generate 1000 samples` button is obscured or minimized the script will let you know...
 
 ![Usage example](example.gif)
+
+### Issues
+1. `PyAutoGUI` will not work on headless systems... ie: remote servers or WSL.
+2. Button identification is sensitive to zoom scale of button on browser.
